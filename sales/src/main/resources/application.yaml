@@ -1,0 +1,13 @@
+server:
+  port: 8882
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sales
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
