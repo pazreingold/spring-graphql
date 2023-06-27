@@ -1,0 +1,10 @@
+type Customer {
+    uuid                : String!
+    fullName            : String!
+    birthDate           : Date!
+    phone               : String!
+    email               : String!
+    salesOrders         : [SalesOrder!]
+    addresses           : [Address!]
+    documents           : [Document!]
+}

@@ -1,0 +1,7 @@
+type Engine {
+    uuid        : String!
+    description : String
+    horsePower  : NonNegativeInt!
+    torque      : NonNegativeInt!
+    capacityCc  : NonNegativeInt!
+}

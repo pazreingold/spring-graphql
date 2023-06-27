@@ -1,0 +1,6 @@
+type SalesOrderItem {
+    uuid                : String!
+    quantity            : PositiveInt!
+    notes               : String
+    modelUuid           : String!
+}

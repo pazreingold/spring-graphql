@@ -1,0 +1,6 @@
+type Address {
+    uuid            : String!
+    street          : String!
+    city            : String!
+    zipcode         : String!
+}

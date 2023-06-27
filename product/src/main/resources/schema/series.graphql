@@ -1,0 +1,7 @@
+type Series {
+    uuid            : String!
+    name            : String!
+    characteristics : [String!]
+    models          : [Model!]!
+    manufacturer    : Manufacturer
+}

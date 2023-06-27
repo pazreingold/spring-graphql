@@ -1,0 +1,8 @@
+type Finance {
+    uuid                : String!
+    baseAmount          : PositiveFloat!
+    taxAmount           : NonNegativeFloat!
+    discountAmount      : NonPositiveFloat!
+    isLoan              : Boolean!
+    loan                : Loan
+}

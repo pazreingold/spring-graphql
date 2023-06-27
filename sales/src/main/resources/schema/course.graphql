@@ -1,7 +1,0 @@
-type Query {
-    oneHello: Hello
-}
-
-type Mutation {
-    deleteHello(number: Int!): Int
-}

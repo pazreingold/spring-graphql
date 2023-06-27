@@ -1,0 +1,7 @@
+type SalesOrder {
+    uuid                : String!
+    orderDateTime       : DateTime!
+    orderNumber         : String!
+    salesOrderItems     : [SalesOrderItem!]!
+    finance             : Finance!
+}

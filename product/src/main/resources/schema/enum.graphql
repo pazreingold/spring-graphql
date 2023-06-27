@@ -1,0 +1,19 @@
+enum Transmission {
+    AUTOMATIC
+    MANUAL
+}
+
+enum BodyType {
+    SEDAN
+    SUV
+    MPV
+    PICKUP
+    CROSSOVER
+}
+
+enum Fuel {
+    DIESEL
+    GAS
+    ELECTRIC
+    HYBRID
+}
