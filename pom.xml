@@ -29,8 +29,11 @@
         <dependencies>
             <dependency>
                 <groupId>com.netflix.graphql.dgs</groupId>
-                <artifactId>graphql-dgs-spring-boot-starter</artifactId>
+                <artifactId>graphql-dgs-platform-dependencies</artifactId>
+                <!-- The DGS BOM/platform dependency. This is the only place you set version of DGS -->
                 <version>${dgs.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
