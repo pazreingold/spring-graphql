@@ -1,0 +1,17 @@
+input ManufacturerInput {
+    name            : String
+    originCountry   : String
+}
+
+input SeriesInput {
+    manufacturer    : ManufacturerInput
+    name            : String
+}
+
+input ModelInput {
+    series          : SeriesInput
+    name            : String
+    isAvailable     : Boolean
+    transmission    : Transmission
+    exteriorColors  : [String!]
+}
